@@ -4,6 +4,15 @@ body {
     font-weight: normal !important;
 }
 
+@font-face {
+    font-family: 'Migra';
+    src: url('Migra-Extralight.woff2') format('woff2'),
+        url('Migra-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
 .homeText {
     font-size: 13pt;
     line-height: 40px;
@@ -13,8 +22,8 @@ body {
 }
 
 .submitText {
-    font-size: 20pt;
-    line-height: 55px;
+    font-size: 18pt;
+    line-height: 45px;
     color: white;
     text-align: left;
     font-style: normal;
@@ -32,16 +41,34 @@ body {
     color: white;
 }
 
+.pageText {
+    color: black;
+    font-size: 14pt;
+    line-height: 35px;
+    text-align: left;
+    font-style: normal;
+}
+
+.pageBigText {
+    font-family: 'Migra' !important;
+    color: #3057E3;
+    font-size: 42pt;
+    line-height: 100px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 200;
+}
+
 .submitFormButton {
     font-size: 13pt;
     line-height: 30px;
-    color: blue !important;
+    color: #3057E3 !important;
     text-align: center;
     font-style: normal;
 }
 
 .navButtons {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 50px;
     color: white;
     text-align: center;
@@ -49,9 +76,9 @@ body {
 
 .navButtonsPages {
     position:absolute;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 50px;
-    color: blue;
+    color: #3057E3;
     text-align: center;
     z-index: 1;
 }
@@ -61,7 +88,10 @@ body {
 }
 
 .pages {
-    background: white !important;
+    background: url("./res/pages/white\ background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .col-half-offset{
@@ -85,12 +115,6 @@ body {
     top: -20%;
     right: 25%;
     width: 55%;
-}
-
-.pageBenchGriffintown {
-    top: 18%;
-    right: 5%;
-    width: 60%;
 }
 
 .pageBenchPortuguese {
