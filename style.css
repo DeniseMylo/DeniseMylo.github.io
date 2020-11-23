@@ -12,6 +12,34 @@ body {
     font-style: normal;
 }
 
+.submitText {
+    font-size: 20pt;
+    line-height: 55px;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+
+.submitFormText {
+    font-size: 13pt;
+    line-height: 30px;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+
+.thankyou_message {
+    color: white;
+}
+
+.submitFormButton {
+    font-size: 13pt;
+    line-height: 30px;
+    color: blue !important;
+    text-align: center;
+    font-style: normal;
+}
+
 .navButtons {
     font-size: 12px;
     line-height: 50px;
