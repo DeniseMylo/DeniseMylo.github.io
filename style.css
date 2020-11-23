@@ -49,6 +49,38 @@ body {
     font-style: normal;
 }
 
+.pageTextBold {
+    color: #000000;
+    font-size: 14pt;
+    line-height: 39px;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.pageTextBlue {
+    color: #3057E3;
+    font-size: 16pt;
+    line-height: 35px;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.pageTextQuote {
+    color: rgb(46, 68, 146);
+    font-size: 14pt;
+    line-height: 39px;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.pageTextQuoteSmall {
+    font-size: 8pt;
+    line-height: 28px;
+}
+
 .pageBigText {
     font-family: 'Migra' !important;
     color: #3057E3;
@@ -114,12 +146,6 @@ body {
     top: -20%;
     right: 25%;
     width: 55%;
-}
-
-.pageBenchPortuguese {
-    top: 40%;
-    right: 22%;
-    width: 50%;
 }
 
 .pageBenchW {
