@@ -124,9 +124,8 @@ body {
 }
 
 .pages {
-    background: url("./res/pages/white\ background.PNG");
-    background-repeat: repeat-y;
-    background-attachment: fixed;
+    background: url("./res/pages/white\ background-opacityless.png");
+    background-repeat: repeat;
 }
 
 .col-half-offset{
