@@ -123,10 +123,6 @@ body {
     z-index: 1;
 }
 
-.cityNav {
-    top: 2750px;
-}
-
 .pages {
     background: url("./res/pages/white\ background.PNG");
     background-repeat: no-repeat;
@@ -145,34 +141,12 @@ body {
     z-index:10;
 }
 
-.pageBench {
-    position:absolute;
-    z-index: 2;
-}
-
-.pageBenchCity {
-    top: -20%;
-    right: 25%;
-    width: 55%;
-}
-
-.pageBenchW {
-    width: 55%;
-    top:20%;
-    right: 20%;
-}
-
-.pageContent {
-    position:absolute;
-    z-index: 1;
-}
-
 
 .zoom {
     transition: transform .2s;;
   }
   
-  .zoom:hover {
+.zoom:hover {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1); 
