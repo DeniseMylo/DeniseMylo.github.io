@@ -125,7 +125,9 @@ body {
 
 .pages {
     background: url("./res/pages/white\ background-opacityless.png");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .col-half-offset{
