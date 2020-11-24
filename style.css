@@ -43,8 +43,16 @@ body {
 
 .pageText {
     color: black;
-    font-size: 14pt;
+    font-size: 15pt;
     line-height: 35px;
+    text-align: left;
+    font-style: normal;
+}
+
+.pageTextLarge {
+    color: black;
+    font-size: 20pt;
+    line-height: 40px;
     text-align: left;
     font-style: normal;
 }
