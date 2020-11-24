@@ -125,7 +125,7 @@ body {
 
 .pages {
     background: url("./res/pages/white\ background.PNG");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-attachment: fixed;
 }
 
