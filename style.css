@@ -125,8 +125,7 @@ body {
 
 .pages {
     background: url("./res/pages/white\ background-opacityless.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-repeat: repeat;
     background-attachment: fixed;
 }
 
