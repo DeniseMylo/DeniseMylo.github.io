@@ -43,7 +43,7 @@ body {
 
 .pageText {
     color: black;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 45px;
     text-align: left;
     font-style: normal;
@@ -150,4 +150,21 @@ body {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1); 
+  }
+
+  /* .image-plate-container {
+      position: relative;
+      width: 100%;
+  } */
+
+  .imageVideo {
+      position: relative;
+      top: 0p;
+      left: 0;
+  }
+
+  .plate-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
